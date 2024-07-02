@@ -1,0 +1,141 @@
+/*nav*/
+
+/*dimension logo*/
+
+.logo {
+    width: 100%;
+
+}
+
+/*liens nenu*/
+
+.image {
+    display: flex;
+    flex-direction: row;
+    width : 200px;
+
+}
+
+  .liens6 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: center;
+      align-items: center;
+      padding: 0px;
+
+    }
+
+/*bloc header*/
+
+/*image de fond bloc header */
+header{
+  width: 1250px;
+  height: 653px;
+  display: flex;
+}
+
+.fondheader {
+  background-image: url("ville_de_cannes.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+
+  
+/*forme header*/
+
+.adresse_cannes {
+  padding-left: 60px;
+}
+
+/*bloc bouttons*/
+/* boutton maps*/
+.lien_maps {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(0, 62, 220, 0.768);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/*boutton contactez-nous*/
+
+.contact {
+  border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color: rgba(220, 44, 0, 0.993);
+  background-image: linear-gradient(
+    to top left,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.2) 30%,
+    rgba(0, 0, 0, 0)
+  );
+  box-shadow:
+    inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.styled:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+  box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.boutton {
+  margin-left: 10px;
+}
+
+
+
+
+}
+ //.photoform {
+  
+  
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+ }
+
+  .textelaplateforme {
+    padding: 50px;
+    //background-image: url("ville_de_cannes.jpg");
+  }
+  
+
+  
+  
